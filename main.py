@@ -118,3 +118,11 @@ val1 = bool(input("Insira true or false: "))
 val2 = bool(input("Insira true or false: "))
 xor = val1 ^ val2
 print(xor)
+
+# faça um programa que peça a idade do usuário e utilize condicionais if or else para descobrir se está habilitado ou não em ter cnh.
+idade = int(input("Digite sua idade: "))
+
+if idade >= 18:
+    print("Você está habilitado a ter CNH!")
+else:
+    print("Você não está habilitado a ter CNH!")
